@@ -1,0 +1,33 @@
+
+* text=auto
+
+*.cs text
+*.shader text
+*.cginc text
+*.compute text
+*.hlsl text
+*.json text
+*.asmdef text
+*.asmref text
+*.txt text
+*.xml text
+*.csv text
+*.html text
+*.css text
+*.js text
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.mp3 binary
+*.wav binary
+*.ogg binary
+*.fbx binary
+*.prefab binary
+*.unity binary
+*.mat binary
+*.asset binary
+*.controller binary
+*.anim binary
+*.meta binary
