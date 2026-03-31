@@ -8,9 +8,10 @@ public class Module1 : MonoBehaviour
         Vector3 a = new Vector3(1, 5, -7);
         Vector3 b = new Vector3(8, 0, -6);
 
-        float distance = Vector3.Distance(a, b);
+        // Знаходимо кут у градусах
+        float angle = Vector3.Angle(a, b);
 
-        Debug.Log("Відстань: " + distance);
+        Debug.Log("Кут між векторами: " + angle + " градусів");
     }
 
     void Update()
